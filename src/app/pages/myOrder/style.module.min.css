@@ -1,0 +1,77 @@
+.my_order_wrapper {
+    padding: 3em 0px;
+}
+
+.my_header {
+    box-shadow: 0px 5px 5px 5px #f3f3f3;
+    padding: 2em;
+    line-height: 30px;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.my_orders {
+    box-shadow: 0px 5px 5px 5px #f3f3f3;
+    padding: 2em;
+}
+
+.my_orders h3 {
+    font-weight: 400;
+    color: #333;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+.Processing {
+    color: #0397d3;
+    background: transparent;
+    border: 1px solid #0397d3;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+}
+.Delivered {
+    color: #39c24d;
+    background: transparent;
+    border: 1px solid #39c24d;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+}
+
+
+.placed_order {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+
+.placed_card img {
+    width: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.placed_card h1 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.4em;
+}
+
+.placed_card {
+    padding: 0.7em;
+}
+
+
+.placed_card p {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 0.5em;
+}

@@ -1,0 +1,35 @@
+.after_order {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 100px;
+}
+
+.after_order img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.after_order h1 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #333;
+}
+
+@media (max-width:550px){
+    .after_order h1 {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+    
+    .after_order {
+        line-height: 30px;
+        text-align: center;
+    }
+}

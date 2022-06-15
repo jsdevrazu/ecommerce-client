@@ -1,0 +1,69 @@
+.form_control img {
+    width: 350px;
+}
+
+.img_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    box-shadow: 0px 5px 5px 5px #f3f3f3;
+    border-radius: 10px;
+    padding: 2em;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.profile .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_main {
+    width: 550px;
+    box-shadow: 0px 5px 5px 5px #f3f3f3;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.profile_main h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.avatar {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.ReactModal__Content {
+    width: 600px !important;
+    border: none !important;
+    box-shadow: 0px 5px 5px 5px #f3f3f3;
+}
+
+.ReactModal__Content .close_btn {
+    padding: 0.3em 1em;
+    background: transparent;
+    font-size: 1.5em;
+}
+
+.ReactModal__Content .close_btn:hover {
+    color: #333;
+}
+
+.model_main h3 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+@media (max-width:520px){
+    .ReactModal__Content {
+        width: 100% !important;
+    }
+}
