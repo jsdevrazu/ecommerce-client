@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+@layer components {
+  .container {
+    @apply !max-w-screen-xl mx-auto px-4;
+  }
+  .sec {
+    @apply py-16;
+  }
+  .active {
+    @apply text-white rounded-md;
+  }
+  .app_input {
+    @apply w-full relative z-10 border border-gray-200 py-2 px-4 focus:border-[#63CF50] rounded outline-none transition duration-300;
+  }
+  .edit_input {
+    @apply w-full relative z-10 border border-gray-200 py-2 px-4 focus:border-[#63CF50] rounded outline-none transition duration-300 text-lg text-gray-500;
+  }
+  .effect {
+    @apply transition duration-300;
+  }
+}
+
+.carousel.w-full {
+  height: 60vh;
+}
+
+.carousel.w-full img {
+  object-fit: cover;
+}
+
+.bg_img {
+  background-image: linear-gradient(#222222ab, #22222283),
+    url("https://cdn.pixabay.com/photo/2016/06/20/04/30/asian-man-1468032_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-body {
+  padding: 10px 20px;
+}
+
+.pagination_box ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+.page-item {
+  background: #570df8;
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pageItemActive {
+  background: #f000b8;
+  color: #fff;
+}
+.wrapper {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
